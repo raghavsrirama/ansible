@@ -1,0 +1,5 @@
+- hosts: 172.31.12.55
+  tasks:
+    - name: run echo command
+      command: /bin/echo "Hello Raghu"
+      
