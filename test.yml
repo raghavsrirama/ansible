@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: 172.31.0.250
   tasks:
     - name: run echo command
       command: /bin/echo "Hello Raghu"
